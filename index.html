@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content= "practice fetching weather API with javascript">
+  <meta name="keywords" content= "API javascript fetch API">
+  <title>weatherapp</title>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>  
+    <main role="main">
+        <heading role="heading">
+    <div id="Container">
+      <button role="button" onclick="ShowDiv()">Get weather for your Location</button>
+    </div></heading>
+    <section role="region">
+    <div id="weatherContainer" style="display:none">
+        <div id="weatherDescription">
+        <h1 id="cityHeader"></h1>
+        <h2 id="Country"></h2>
+        <div id="weatherMain">
+          <div id="temp"></div>
+          <div id="summary"></div>
+          <div><img id="documentIconImg"/></div>
+        </div>
+        <div id="hum"></div>
+      </div>
+    </div>
+    </div>
+</section>
+    </main>
+</body>
+<script src="/index.js"></script>
+
+</html>

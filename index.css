@@ -1,0 +1,48 @@
+body {
+    background-position: center;
+  background-size: cover;
+    margin: 0;
+    min-height: 100%;
+    color: #1a1b1e;
+    background-image: url("https://sterlingcleaning.com/wp-content/uploads/2011/12/Blue-Sky.jpg");
+    padding-bottom: 11rem;
+}
+  
+  
+  #weatherContainer{
+    background-color: rgba(211,224,237,0.4);
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-family: 'Muli', sans-serif; opacity:1;
+    }
+  button {
+    background-color: #5996cc; 
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+  #weatherDescriptionHeader{
+    text-decoration: none;
+    font-size: 24px;
+  }
+  #cityHeader{
+    font-size: 54px
+  }
+
+  #temp{
+    font-size: 45px;
+  }
+  #documentIconImg{
+    width: 90px;
+  }
+  #weatherMain{
+    font-size: 20px;
+  }
